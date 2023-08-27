@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="alpha task1.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container ">
+        <header class="header">
+            <h1 id="title">
+                Survey For India Students 
+            </h1>
+ 
+            <form action="" id="survey-form">
+ <!-- radio button section -->
+ <div class="form-group">
+    <p id="quest">what do you have interest in?</p>
+    <label for="">
+        <input type="radio" name="source" value="Android Programming"
+        class="inputRadio"
+        checked> Android Programming
+    </label>
+    <label for="">
+        <input type="radio" name="source" value="Programming Language"
+        class="inputRadio"
+        >Programming Language
+    </label>
+    <label for="">
+        <input type="radio" name="source" value="Cloud Computing"
+        class="inputRadio"
+        > Cloud Computing
+    </label>
+    <label for="">
+        <input type="radio" name="source" value="Hardware"
+        class="inputRadio"
+        > Hardware
+    </label>
+    <label for="">
+        <input type="radio" name="source" value="other"
+        class="inputRadio"
+        > Other
+    </label>
+</div>
+<!-- end of radio button -->
+
+<!-- Checkbox section -->
+<div class="form-group">
+    <p id="quest">Would you like to see improved ? </p>
+    <label for="">
+        <input type="checkbox" name="prefer" class="checkbox" value="front-end-dev"> Front-end Developer
+    </label>
+    <label for="">
+        <input type="checkbox" name="prefer" class="checkbox" value="back-end-dev"> Back-end Developer
+    </label>
+    <label for="">
+        <input type="checkbox" name="prefer" class="checkbox" value="app-dev">  Android App Developer
+    </label>
+    <label for="">
+        <input type="checkbox" name="prefer" class="checkbox" value="soft-engineering"> Software Engineering
+    </label>
+    <label for="">
+        <input type="checkbox" name="prefer" class="checkbox" value="other"> Other
+    </label>
+</div>
+<!-- End of checkbox section -->
+
+<!-- Textarea section -->
+<div class="form-group">
+    <p id="quest">Give us your feedback</p>
+    <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder="Enter your feedback here..."></textarea>
+</div>
+
+<div class="form-group">
+    <button type="submit" id="submit" class="btn">Submit</button>
+</div>
+</form>
+</header>
+</div>
+</body>
+</html>
